@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-16T18:13:36.773Z",
+        "line": 3,
+        "name": "HubSpot login scenario",
+        "description": "",
+        "id": "hubspot-login-feature;hubspot-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11414516800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4757775000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Title of the login page is",
+            "match": {
+              "location": "LoginStepDefinition.title_of_the_login_page_is()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 710200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 561000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HubSpot login feature",
+    "description": "",
+    "id": "hubspot-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/featues/login.feature",
+    "tags": []
+  }
+]
