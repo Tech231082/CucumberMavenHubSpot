@@ -1,50 +1,30 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/java/featues/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/java/featues/homePage.feature");
 formatter.feature({
-  "name": "HubSpot login feature",
+  "name": "HubSpot Home Page Actions",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "HubSpot login scenario",
+  "name": "HubSpot Home Page scenario",
   "description": "",
   "keyword": "Scenario"
 });
 formatter.step({
-  "name": "User is on login page",
+  "name": "User is on base page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_is_on_login_page()"
+  "location": "HomePageStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Title of the login page is",
+  "name": "User quits the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginStepDefinition.title_of_the_login_page_is()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters username and password",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_enters_username_and_password()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User clicks on login button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_clicks_on_login_button()"
+  "location": "HomePageStepDefinition.user_quits_the_browser()"
 });
 formatter.result({
   "status": "passed"

@@ -8,4 +8,6 @@ Then Title of the login page is
 
 Then User enters username and password
 
-Then User clicks on login button
+Then User is on home page
+
+Then User closes the browser

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.200721">
-<testcase classname="HubSpot login feature" name="HubSpot login scenario" time="16.200721">
-<system-out><![CDATA[Given User is on login page.................................................passed
-Then Title of the login page is.............................................passed
-Then User enters username and password......................................passed
-Then User clicks on login button............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.276385">
+<testcase classname="HubSpot Home Page Actions" name="HubSpot Home Page scenario" time="18.276385">
+<system-out><![CDATA[Given User is on base page..................................................passed
+Then User quits the browser.................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

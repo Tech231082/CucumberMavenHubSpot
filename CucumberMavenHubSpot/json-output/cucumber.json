@@ -3,70 +3,46 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-01-16T18:13:36.773Z",
+        "start_timestamp": "2020-01-16T21:28:03.503Z",
         "line": 3,
-        "name": "HubSpot login scenario",
+        "name": "HubSpot Home Page scenario",
         "description": "",
-        "id": "hubspot-login-feature;hubspot-login-scenario",
+        "id": "hubspot-home-page-actions;hubspot-home-page-scenario",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 11414516800,
+              "duration": 18116011400,
               "status": "passed"
             },
             "line": 5,
-            "name": "User is on login page",
+            "name": "User is on base page",
             "match": {
-              "location": "LoginStepDefinition.user_is_on_login_page()"
+              "location": "HomePageStepDefinition.user_is_on_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 4757775000,
+              "duration": 136596800,
               "status": "passed"
             },
             "line": 7,
-            "name": "Title of the login page is",
+            "name": "User quits the browser",
             "match": {
-              "location": "LoginStepDefinition.title_of_the_login_page_is()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 710200,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User enters username and password",
-            "match": {
-              "location": "LoginStepDefinition.user_enters_username_and_password()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 561000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User clicks on login button",
-            "match": {
-              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+              "location": "HomePageStepDefinition.user_quits_the_browser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "HubSpot login feature",
+    "name": "HubSpot Home Page Actions",
     "description": "",
-    "id": "hubspot-login-feature",
+    "id": "hubspot-home-page-actions",
     "keyword": "Feature",
-    "uri": "file:src/main/java/featues/login.feature",
+    "uri": "file:src/main/java/featues/homePage.feature",
     "tags": []
   }
 ]
